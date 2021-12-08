@@ -30,10 +30,11 @@ DB_USERNAME=root
 DB_PASSWORD=
 ```
 
-5. Run the command `php artisan key:generate` to generate a unique key for encrypting session cookies
-6. Make a schema in your database named `ksu-database` or to the one you have set earlier.
-7. Run the command `php artisan migrate --seed` to create the tables in your database and also create dummy data.
-
+3. Run the command `php artisan key:generate` to generate a unique key for encrypting session cookies
+4. Make a schema in your database named `ksu-database` or to the one you have set earlier.
+5. Run the command `php artisan migrate --seed` to create the tables in your database and also create dummy data.
+6. Run the app by executing command `php artisan serve`
+7. Visit the app in the browser via `localhost:8000` or `127.0.0.1:8000` if you have `localhost` pointed to a different address.
 
 ### Credentials
 
