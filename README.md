@@ -33,3 +33,14 @@ DB_PASSWORD=
 5. Run the command `php artisan key:generate` to generate a unique key for encrypting session cookies
 6. Make a schema in your database named `ksu-database` or to the one you have set earlier.
 7. Run the command `php artisan migrate --seed` to create the tables in your database and also create dummy data.
+
+
+### Credentials
+
+```
+Admin
+email: admin@ksu.edu
+password: 123123123
+
+all randomly generated students and teachers have default password of 123123123
+```
